@@ -1,0 +1,50 @@
+[gd_scene load_steps=6 format=3 uid="uid://c7ptty0roax1e"]
+
+[ext_resource type="Texture2D" uid="uid://cjbwuej6ay4v7" path="res://Jungle Asset Pack/parallax background/plx-1.png" id="1_g3sp8"]
+[ext_resource type="Texture2D" uid="uid://wlnnilcqs80g" path="res://Jungle Asset Pack/parallax background/plx-2.png" id="2_6f8og"]
+[ext_resource type="Texture2D" uid="uid://bhcmcu3asxqkg" path="res://Jungle Asset Pack/parallax background/plx-3.png" id="3_s5myn"]
+[ext_resource type="Texture2D" uid="uid://buu8ctpddtbln" path="res://Jungle Asset Pack/parallax background/plx-4.png" id="4_psi66"]
+[ext_resource type="Texture2D" uid="uid://f5bsrnfouf2o" path="res://Jungle Asset Pack/parallax background/plx-5.png" id="5_2p34o"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2.99479, 2.99074)
+texture = ExtResource("1_g3sp8")
+centered = false
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+scale = Vector2(3.0026, 2.99537)
+texture = ExtResource("2_6f8og")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.7, 0.7)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer2"]
+scale = Vector2(2.99479, 3)
+texture = ExtResource("3_s5myn")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.8, 0.8)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3"]
+scale = Vector2(3.00463, 3.00463)
+texture = ExtResource("4_psi66")
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.9, 0.9)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer4"]
+scale = Vector2(2.99537, 2.99537)
+texture = ExtResource("5_2p34o")
+centered = false
