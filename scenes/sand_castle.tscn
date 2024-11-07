@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://btdxpemlmwebw"]
+
+[ext_resource type="Texture2D" uid="uid://cvs5i7njw7u1c" path="res://assets/img/obstacles/sand-castle-in-pixel-art-style-vector_processed.png" id="1_usgii"]
+
+[node name="sand_castle" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-2, -19)
+scale = Vector2(0.653535, 0.653535)
+texture = ExtResource("1_usgii")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(-25, -23)
+scale = Vector2(3.72988, 3.6993)
+polygon = PackedVector2Array(25.47, 21.3554, -13.4053, 21.085, -14, -5, -2.14484, -5.40642, -1.87674, -19.1928, 15.282, -19.1928, 14.7458, -5.40642, 26.5424, -5.40642)
