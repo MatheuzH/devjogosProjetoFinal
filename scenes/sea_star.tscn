@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://ta0webu32dxh"]
+
+[ext_resource type="Texture2D" uid="uid://c5p5uffaqnssl" path="res://assets/img/obstacles/estrela_do_mar_processed.png" id="1_lkj0u"]
+
+[node name="sea_star" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-1, -6)
+scale = Vector2(0.290789, 0.290789)
+texture = ExtResource("1_lkj0u")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(-1, -1)
+scale = Vector2(3, 3)
+polygon = PackedVector2Array(-20.3333, -11.6667, -16, -16, -5.66667, -11, 3, -21.3333, 6.33333, -18.3333, 4.66667, -8.66667, 16, -6.33333, 20.3333, 1.33333, 8.33333, 1.66667, 10, 17.3333, 5, 18.6667, -3.66667, 6.66667, -14, 14.6667, -20, 11.6667, -11, -2)

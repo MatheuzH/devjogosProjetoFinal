@@ -2,10 +2,10 @@ extends Node
 
 
 var sand_castle_scene = preload("res://scenes/sand_castle.tscn")
-var rock_scene = preload("res://scenes/rock.tscn")
+var sea_star_scene = preload("res://scenes/sea_star.tscn")
 var barrel_scene = preload("res://scenes/barrel.tscn")
 var bird_scene = preload("res://scenes/bird.tscn")
-var obstacle_types := [sand_castle_scene, rock_scene, barrel_scene]
+var obstacle_types := [sand_castle_scene, sea_star_scene, barrel_scene]
 var obstacles : Array
 var bird_heights := [200, 390]
 
