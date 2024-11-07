@@ -1,40 +1,12 @@
-[gd_scene load_steps=32 format=3 uid="uid://bhtein0chknfn"]
+[gd_scene load_steps=25 format=3 uid="uid://bhtein0chknfn"]
 
 [ext_resource type="Script" path="res://scenes/capivara.gd" id="1_1stpw"]
 [ext_resource type="AudioStream" uid="uid://dscpg6m666dta" path="res://assets/sound/jump.wav" id="2_60go1"]
-[ext_resource type="Texture2D" uid="uid://cjyb6ltu6h1uh" path="res://charlieTheCapybaraAnimationSheet.png" id="2_og4uk"]
+[ext_resource type="Texture2D" uid="uid://cjyb6ltu6h1uh" path="res://assets/img/charlieTheCapybaraAnimationSheet.png" id="2_og4uk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wrsco"]
 atlas = ExtResource("2_og4uk")
 region = Rect2(0, 384, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_y7m2f"]
-atlas = ExtResource("2_og4uk")
-region = Rect2(64, 384, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_b1ien"]
-atlas = ExtResource("2_og4uk")
-region = Rect2(128, 384, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_gvj3f"]
-atlas = ExtResource("2_og4uk")
-region = Rect2(192, 384, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0pkik"]
-atlas = ExtResource("2_og4uk")
-region = Rect2(256, 384, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_evxrr"]
-atlas = ExtResource("2_og4uk")
-region = Rect2(320, 384, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ium7d"]
-atlas = ExtResource("2_og4uk")
-region = Rect2(384, 384, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_u62r0"]
-atlas = ExtResource("2_og4uk")
-region = Rect2(448, 384, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_22x7j"]
 atlas = ExtResource("2_og4uk")
@@ -109,27 +81,6 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wrsco")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_y7m2f")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_b1ien")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_gvj3f")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_0pkik")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_evxrr")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ium7d")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_u62r0")
 }],
 "loop": true,
 "name": &"duck",
@@ -220,7 +171,7 @@ scale = Vector2(0.473633, 0.473633)
 sprite_frames = SubResource("SpriteFrames_6wmvf")
 animation = &"duck"
 autoplay = "idle"
-frame_progress = 0.891221
+frame_progress = 0.622119
 
 [node name="RunCol" type="CollisionShape2D" parent="."]
 position = Vector2(-1, 0)

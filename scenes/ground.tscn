@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b5pwnh1tmyrnl"]
 
-[ext_resource type="Texture2D" uid="uid://c1oqrqxusukd2" path="res://assets/img/background/ground.png" id="1_achns"]
+[ext_resource type="Texture2D" uid="uid://cd21nmaq0a5lp" path="res://Berie's_Adventure_Seaside_Asset_Pack_Free/PNG/background_sand.png" id="1_enqnk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_te2nw"]
 size = Vector2(2304, 97)
@@ -9,7 +9,8 @@ size = Vector2(2304, 97)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 552)
-texture = ExtResource("1_achns")
+scale = Vector2(7.19688, 1.31507)
+texture = ExtResource("1_enqnk")
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
