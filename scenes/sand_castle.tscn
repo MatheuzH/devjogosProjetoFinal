@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://btdxpemlmwebw"]
 
-[ext_resource type="Texture2D" uid="uid://cvs5i7njw7u1c" path="res://assets/img/obstacles/sand-castle-in-pixel-art-style-vector_processed.png" id="1_usgii"]
+[ext_resource type="Texture2D" uid="uid://cvs5i7njw7u1c" path="res://assets/img/obstacles/sand-castle.png" id="1_usgii"]
 
 [node name="sand_castle" type="Area2D"]
 
