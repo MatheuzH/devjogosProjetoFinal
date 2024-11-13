@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://cx7pc3ro2olsu"]
+
+[ext_resource type="Texture2D" uid="uid://bp24glkvblgd2" path="res://assets/img/background/praia.webp" id="1_n8xxb"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(576, 313)
+scale = Vector2(1.91444, 1.91444)
+texture = ExtResource("1_n8xxb")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = -127.452
+offset_top = -86.1869
+offset_right = 121.548
+offset_bottom = -50.1869
+text = "CAPIVARA'S ADVENTURE"
+placeholder_text = "CAPIVARA'S ADVENTURE"
+
+[node name="Button" type="Button" parent="."]
+offset_left = -29.2513
+offset_top = 25.0725
+offset_right = 27.7487
+offset_bottom = 56.0725
+text = "Iniciar"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = -37.0865
+offset_top = 67.3825
+offset_right = 35.9135
+offset_bottom = 98.3825
+text = "Créditos"
+
+[node name="Button3" type="Button" parent="."]
+offset_left = -30.296
+offset_top = 109.692
+offset_right = 26.704
+offset_bottom = 140.692
+text = "Sair
+"
