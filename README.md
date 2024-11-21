@@ -35,7 +35,7 @@ A pontuação cresce conforme a dificuldade do jogo aumenta, onde ele começa ad
 
 ## Link do jogo
 
-https://matheuzh.itch.io/capivaras-run
+https://matheuzh.itch.io/capivaras-adventure
 
 ## Integrantes
 
