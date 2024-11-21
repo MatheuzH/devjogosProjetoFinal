@@ -11,7 +11,6 @@ A nossa personagem principal "Capivara", é uma capivara sagaz que vivia as marg
 
 * Flappy Bird
 * Jogo do dinossauro do google
-* Super Smash Bros
 
 ## Telas
 
@@ -33,6 +32,10 @@ A capivara inicia o jogo com uma velocidade de 10.0 pixels e cresce a medida que
 ## Score
 
 A pontuação cresce conforme a dificuldade do jogo aumenta, onde ele começa adicionando 10 por milisegundo dividido por 5000 e termina adicionado 25 por milisegundo dividido por 5000. Além disso, conforme você vai jogando o jogo marca a sua maior pontuação durante a jogatina no high socre.
+
+## Link do jogo
+
+https://matheuzh.itch.io/capivaras-run
 
 ## Integrantes
 
