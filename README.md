@@ -37,6 +37,12 @@ A pontuação cresce conforme a dificuldade do jogo aumenta, onde ele começa ad
 
 https://matheuzh.itch.io/capivaras-adventure
 
+## Futuras Alterações 
+
+O jogo ainda sofre com um pequeno problema de resolução no qual ainda deve ser resolvido
+Adicionar novos modos de jogo 
+Mudança de cenário conforme o tempo for passando
+
 ## Integrantes
 
 * Gabriel Martinez
