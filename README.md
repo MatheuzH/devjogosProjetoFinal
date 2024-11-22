@@ -39,9 +39,9 @@ https://matheuzh.itch.io/capivaras-adventure
 
 ## Futuras Alterações 
 
-O jogo ainda sofre com um pequeno problema de resolução no qual ainda deve ser resolvido
-Adicionar novos modos de jogo 
-Mudança de cenário conforme o tempo for passando
+1. O jogo ainda sofre com um pequeno problema de resolução no qual ainda deve ser resolvido
+2. Adicionar novos modos de jogo
+3. Mudança de cenário conforme o tempo for passando
 
 ## Integrantes
 
